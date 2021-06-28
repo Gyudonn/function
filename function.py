@@ -44,7 +44,10 @@ def print_product(products):
 	for product in products:
 		print('The price of ' + product[0] + ' is ' + str(product[1]))
 
-if_file_isexit()
-file_edit_mode(operation)
-print_product(outside_products)
+def main():
+	if_file_isexit()
+	file_edit_mode(operation)
+	print_product(outside_products)
+
+main()
 
